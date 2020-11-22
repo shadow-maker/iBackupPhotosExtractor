@@ -14,6 +14,8 @@ manifest = {}
 config = {}
 
 # Load 'config.json' file to memory
+if not os.path.isfile("config.json"):
+    sys.exit("ERROR: Could not find configuration 'config.json' file")
 with open("config.json", "r") as f:
     config = dict(json.load(f))
 print("\tLoaded configuration file")
