@@ -1,0 +1,43 @@
+{
+  "manifestDBName": "Manifest.db",
+  "customBackupDirectory": "",
+  "customPhotosOutputDirectory": "",
+
+  "outputDirectoriesFormat": "smart",
+
+  "getCameraRollPhotos": true,
+  "getSMSPhotos": true,
+
+  "savePhotos": true,
+  "saveVideos": true,
+  "saveLivePhotosPVT": true,
+  "saveLivePhotosJPG": false,
+  "saveLivePhotosMOV": false,
+
+  "userConfirmationPrompts": true,
+
+  "photoFileExtensions": [
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".heic"
+  ],
+  "videoFileExtensions": [
+    ".mov",
+    ".mp4",
+    ".gif"
+  ],
+  "livePhotoExtensions": [
+    ".jpg",
+    ".jpeg",
+    ".mov"
+  ],
+
+  "filtersCameraRollPhotos": [
+    "Media/DCIM",
+    "Media/PhotoStreamsData"
+  ],
+  "filtersSMSPhotos": [
+    "Library/SMS/Attachments"
+  ]
+}
