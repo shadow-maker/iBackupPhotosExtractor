@@ -34,8 +34,7 @@
   ],
 
   "filtersCameraRollPhotos": [
-    "Media/DCIM",
-    "Media/PhotoStreamsData"
+    "Media/DCIM"
   ],
   "filtersSMSPhotos": [
     "Library/SMS/Attachments"

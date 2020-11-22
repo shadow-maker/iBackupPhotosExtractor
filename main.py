@@ -165,8 +165,8 @@ def getDir(relativePath, typeFolder, filters):
                 break
     elif config["outputDirectoriesFormat"].lower() == "smart":
         dir += typeFolder + "/"
-        if relativePath.startswith("Media/PhotoStreamsData/"):
-            dir += "PhotoStream/"
+        if os.path.dirname(relativePath).endswith("IMPRT"):
+            dir += "Imports/"
         if os.path.splitext(os.path.dirname(relativePath))[1].lower() == ".pvt":
             dir += os.path.dirname(relativePath).split("/")[-2] + "/" +  os.path.dirname(relativePath).split("/")[-1]
         else:
